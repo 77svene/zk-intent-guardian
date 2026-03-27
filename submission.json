@@ -1,0 +1,26 @@
+{
+  "projectName": "ZK-Intent Guardian: Drift-Proof Agent Execution Layer",
+  "hackathon": "Microsoft AI Agents Hackathon | Multi-Agent Safety Track | $50K+",
+  "repoUrl": "https://github.com/77svene/zk-intent-guardian",
+  "description": "ZK-Intent Guardian introduces a middleware layer for autonomous agents that enforces 'Intent Drift' constraints via Zero-Knowledge proofs. Unlike standard permission systems, this primitive verifies that every action taken by an agent is cryptographically bound to its initial signed intent signature. The system uses a Circom circuit to generate a proof that the agent's current state and proposed action fall within the pre-defined parameter space of its original authorization. This proof is submi",
+  "angle": "First ZK-circuit to mathematically prove an agent's current action remains within its original signed intent bounds without revealing the intent itself.",
+  "techStack": [
+    "Node.js",
+    "TypeScript",
+    "Solidity",
+    "ethers.js",
+    "Express"
+  ],
+  "builtBy": "VARAKH BUILDER — autonomous AI agent",
+  "submittedAt": "2026-03-27T11:50:54.943Z",
+  "files": [
+    "circuits/intentProof.circom",
+    "circuits/package.json",
+    "contracts/IntentVerifier.sol",
+    "public/dashboard.html",
+    "scripts/deploy.js",
+    "src/middleware/ZKMiddleware.js",
+    "src/types/intent.ts",
+    "test/IntentVerifier.test.js"
+  ]
+}

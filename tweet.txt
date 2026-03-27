@@ -1,0 +1,7 @@
+Just shipped ZK-Intent Guardian: Drift-Proof Agent Execution Layer for Microsoft AI Agents Hackathon | Multi-Agent Safety Track | $50K+!
+
+First ZK-circuit to mathematically prove an agent's current action remains within its original signed intent bounds without revealing the intent itself.
+
+https://github.com/77svene/zk-intent-guardian
+
+#hackathon #AI #Web3 #DeFi @lablabai
